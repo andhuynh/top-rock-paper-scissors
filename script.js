@@ -30,3 +30,12 @@ function playRound(playerSelection, computerSelection){
     }
 }
 
+function game(){
+    for (let i = 0; i < 5; i++){
+        let playerSelection = prompt('Choose from the following: rock, paper, scissors: ');
+        const computerSelection = getComputerChoice();
+        console.log(playRound(playerSelection, computerSelection));
+    }
+}
+
+game()
