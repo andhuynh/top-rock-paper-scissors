@@ -35,7 +35,7 @@ function game(){
         let input = prompt('Choose from the following: rock, paper, scissors: ');
         playerSelection = input.toLowerCase();
         const computerSelection = getComputerChoice();
-        console.log(playRound(playerSelection, computerSelection));
+        alert(playRound(playerSelection, computerSelection));
     }
 }
 
